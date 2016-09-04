@@ -32,7 +32,7 @@ Encoder-decoder models (Kalchbrenner & Blunsom 2013, Sutskever et al. 2014) are 
 
 First, we *encode* the source sentence. To do so, we convert the source word into a fixed-length word representation, parameterized by `Φ_wr`:
 
-    $$wf_j = WORDREP(f_j; \phi_{fwr})$$
+ $$wf_j = WORDREP(f_j; \phi_{fwr})$$
 
 Then,  we map this into a hidden state using a recurrent neural network, parameterized by `Φ_frnn`. We assume `h_0` is a zero vector.
 
